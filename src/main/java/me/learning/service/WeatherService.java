@@ -1,6 +1,8 @@
 package me.learning.service;
 
+import java.util.Map;
+
 public interface WeatherService {
 
-    Object getCurrentWeather(String city);
+    Map<String, Object> getCurrentWeather(String city);
 }
